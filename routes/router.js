@@ -9,7 +9,6 @@ router.get("/empID/:empid",controller.EmplyoeeWithId);
 router.post("/add",controller.AddEmplyoee);
 router.delete("/delete/:id",controller.DeleteEmplyoee);
 router.put("/edit/:id", controller.ModifyEmployee);
-// router.put("/tab/:tabname", controller.ModifyTab);
 router.get("/employee/:id", controller.FindAnEmplyoee);
 router.delete("/tab/:category/:qtr",controller.DeleteTab);
 
